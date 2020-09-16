@@ -1,18 +1,14 @@
-let size = 8 , i , j ;
+let size = 8, i, j;
 let chess = "";
-for ( i = 0 ; i < size ; i++ )
-{
-    for ( j = 0; j < size ; j++ )
-    {
-        if ( ( i + j ) % 2 === 0 )
-        {
-            chess += " " ;
+for (i = 0; i < size; i++) {
+    for (j = 0; j < size; j++) {
+        if ((i + j) % 2 === 0) {
+            chess += " ";
         }
-        else
-        {
-            chess += "#" ;
+        else {
+            chess += "#";
         }
     }
-    chess += "\n" ;
+    chess += "\n";
 }
-console.log( chess );
+console.log(chess);
